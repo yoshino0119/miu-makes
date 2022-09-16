@@ -1,0 +1,59 @@
+.emailPage {
+    margin-top: 10vh;
+    .title {
+      // color:#fd5068;
+      // color: #88e6ff;
+      background: linear-gradient(90deg, rgba(176, 255, 181, 1), rgba(136, 230, 255, 1) 77%);
+      background: -webkit-linear-gradient(90deg, rgba(176, 255, 181, 1), rgba(136, 230, 255, 1) 77%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 20px 0;
+      text-align: center;
+      font-size: 30px;
+    }
+    .userIcon {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: 0 auto;
+      // background: #fd5068;
+      background-image: linear-gradient(90deg, rgba(176, 255, 181, 1), rgba(136, 230, 255, 1) 77%);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .resetBtn {
+      padding: 12px;
+      width: 200px;
+      border-radius: 21px;
+      // background: #fd5068;
+      background-image: linear-gradient(90deg, rgba(176, 255, 181, 1), rgba(136, 230, 255, 1) 77%);
+      color: #fff;
+      text-align: center;
+      border: none;
+      margin-top: 20px;
+      opacity: 1;
+      transition: opacity .5s;
+      cursor: pointer;
+      &:hover {
+        opacity: .7;
+      }
+    }
+    .errorMessage{
+      color: #ff69b4;
+    }
+    .linkToLogin {
+      margin: 5px 0 5px;
+      text-align: center;
+      & > a {
+        // color:#fd5068;
+        color: #88e6ff;
+      }
+    }
+    .form-group{
+      margin: 10px auto;
+      width: 300px;
+      
+    }
+}
